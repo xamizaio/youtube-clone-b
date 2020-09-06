@@ -1,0 +1,200 @@
+<!doctype html> 
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>  
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<title>YouTube Clone</title>
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width,  height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body class="body-home">
+
+<div class="fixed-top">
+<div class="row block" style="position:relative;">
+<div class="logo-wrapper"><a id="show-sidebar" href="#" title="Show sidebar"><i class="material-icons">menu</i></a>
+<a href="index.html" title="" class="logo"><img src="img/yt.png" style="width: 100px;" /></a>
+
+
+<br style="clear:both;"/>
+</div>		
+<div class="header">
+<div class="searchWidget">
+<form action="#"> <div class="search-holder">
+                    <span class="search-button">
+					<button type="submit">
+					<i class="material-icons">&#xE8B6;</i>
+					</button>
+					</span>
+					<div class="search-target">
+					<a id="switch-search" class="dropdown-toggle"  data-toggle="dropdown" href="#" aria-expanded="false" data-animation="scale-up" role="button"><i class="icon material-icons"></i></a>
+					<input type="text" id="switch-com" class="hide" name="component" value ="video">                
+					<ul class="dropdown-menu dropdown-left bullet" role="menu">
+					
+					</ul>
+					</div>
+                    <div class="form-control-wrap">
+                      <input type="text" class="form-control input-lg empty" name="tag" value ="" placeholder="">                
+                    </div>
+                     </div>
+
+				</form>
+				    <div id="suggest-results"></div> </div>
+				<div class="user-quick"><a data-target="#search-now" data-toggle="modal" href="#" class="top-link" id="show-search"><i class="material-icons">notifications</i></a>	
+				<a id="uploadNow" data-target="#login-now" data-toggle="modal" href="#" class="top-link" title="Login to upload">	<i class="material-icons">videocam</i> </a> 
+				<a id="openusr" class="btn uav btn-small no-user"  href="#"
+				data-animation="scale-up" role="button" title="Login">	
+				<img title="Guest" data-name="Guest" src="img/logo.jpg" /> 
+				</a>
+				</div>
+
+
+</div>
+</div>
+</div>
+
+<div id="wrapper" class="container haside">
+<div class="row block page p-home">
+<div id="sidebar" class=" animated zoomInLeft"> 
+<div class="sidescroll">
+<div class="sidebar-nav blc"><ul><li class="lihead">
+	<a href="index.html"><span class="iconed"><i class="material-icons">home</i></span> Home</a></li>
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons active">local_fire_department</i></span>Trending</a></li>
+
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons">subscriptions</i></span>Subcriptions</a></li>
+
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons">library_add_check</i></span>Library</a></li>
+
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons">history</i></span>History</a></li>
+
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons">play_arrow</i></span>Your videos</a></li>
+
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons">watch_later</i></span>Watch Later</a></li>
+
+	<li class="lihead"><a href="#"><span class="iconed"><i class="material-icons">thumb_up</i></span> Liked videos</a></li>
+
+
+	</ul></div><div class="blc mtop20 odet fs300"><p class="small mright20 mleft10"> </p></div>
+
+
+
+<div class="blc" style="height:400px">&nbsp;</div>
+</div>
+
+</div>
+
+<div id="home-content" class="main-holder col-md-12">
+<h1 class="loop-heading"><span>Trending</span></h1><div class="homeLoader sLoad">
+    <div class="cp-spinner cp-flip"></div>  
+</div><div class="loop-content phpvibe-video-list hide">
+<div id="video-179" class="video">
+<div class="video-thumb">
+		<a class="clip-link" data-id="179" title="Beavis & Butthead">
+			<span class="clip">
+				<img src="img/bb.jpg" data-name="Beavis & Butthead" /><span class="vertical-align"></span>
+			</span>
+          	<span class="overlay"></span>		
+		</a><a class="heartit" title="Beavis&Butthead" href="#"></a> </div>	
+<div class="video-data">
+	<h4 class="video-title"><a href="watch.html" title="Beavis & Butthead">Beavis & Butthead(click here)</a></h4>
+<ul class="stats">	
+<li class="uploaderlink"> <a href="#" title="Fox">Fox</a> </li>
+ <li>1,876,200 views</li><li>6 years ago</li></ul>
+</div>	
+	</div>
+
+
+
+<div id="video-8" class="video">
+<div class="video-thumb">
+		<a class="clip-link" data-id="179" title="Superman">
+			<span class="clip">
+				<img src="img/sm-2.jpg" data-name="Superman" /><span class="vertical-align"></span>
+			</span>
+          	<span class="overlay"></span>		
+		</a><a class="heartit"  href="#"></a> </div>	
+<div class="video-data">
+	<h4 class="video-title"><a href="#" title="Superman">Superman:Man of Tommorow</a></h4>
+<ul class="stats">	
+<li class="uploaderlink"> <a href="#" title="Fox">DC Universe</a> <a  href="#" title ="SM"> </a></li>
+ <li>1,625,900 views</li><li>1 month ago</li></ul>
+</div>	
+	</div>
+
+
+
+<div id="video-5" class="video">
+<div class="video-thumb">
+		<a class="clip-link" data-id="179" title="sk">
+			<span class="clip">
+				<img src="img/skate.jpg" data-name="Sk" /><span class="vertical-align"></span>
+			</span>
+          	<span class="overlay"></span>		
+		</a><a class="heartit" title="X-Games" href="#"></a> </div>	
+<div class="video-data">
+	<h4 class="video-title"><a href="#" title="Superman">Nyjah at Street League</a></h4>
+<ul class="stats">	
+<li class="uploaderlink"> <a href="#" title="x-games">X-Games</a></li>
+ <li>925,900 views</li><li>1 year ago</li></ul>
+</div>	
+	</div>
+
+<div id="video-175" class="video">
+<div class="video-thumb">
+		<a class="clip-link" data-id="175" title="Beavis" href="#">
+			<span class="clip">
+				<img src="img/bb2.jpg" data-name="Beavis" /><span class="vertical-align"></span>
+			</span>
+          	<span class="overlay"></span>		
+		</a><a class="heartit" title="Like this video" href="#"></a> </div>	
+<div class="video-data">
+	<h4 class="video-title"><a href="#" title="BB">Beavis & Butthead S3-EP-43</a></h4>
+<ul class="stats">	
+<li class="uploaderlink"> <a href="#" title="BB">Fox </a> </li>
+ <li>6,500 views</li><li>4 years ago</li></ul>
+</div>	
+	</div>
+
+<div id="video-175" class="video">
+<div class="video-thumb">
+		<a class="clip-link" data-id="24" title="py" href="#">
+			<span class="clip">
+				<img src="img/py.jpg" data-name="py" /><span class="vertical-align"></span>
+			</span>
+          	<span class="overlay"></span>		
+		</a><a class="heartit" title="Like this video" href="#"></a></div>	
+<div class="video-data">
+	<h4 class="video-title"><a href="#" title="yt">Network Programming:SSH with paramiko</a></h4>
+<ul class="stats">	
+<li class="uploaderlink"> <a href="#" title="http">HTTP</a>  </a></li>
+ <li>8,211 views</li><li>9 months ago</li></ul>
+</div>	
+	</div>
+
+</div></div>
+
+
+</div>
+</div>
+</div>
+</div>
+			  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+var site_url = 'index.html';
+var nv_lang = '';
+var select2choice = '';
+var delete_com_text = '';
+</script>
+<script type="text/javascript" src="js/jquery-latest.php"></script>
+
+</body>
+
+</html>

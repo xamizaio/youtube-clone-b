@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Clone</title>
+    <!--a media query script-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/yt.css">
+<body>
+    <!--build top bar-->
+    <header>
+         <!--youtube logo-->
+        <a href="#">
+          <img src="">
+        </a>
+    
+        <!--search icon-->
+       <img id="yt-icon" src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c" alt="YouTube logo" alt="icon logo"> 
+       <!--  <i id="search-videos-icon" class="material-icons">search</i>-->
+           <!--menu icon-->
+      <img id="settings-icon" src="img/dots.png" alt="icon logo"> 
+         
+
+    </header>
+    <!--video thumbnail,details,related,comments-->
+    <main>
+        <div id="video-thumbnail">
+         <img src="img/beavis.jpg" alt="Beavis&BUtthead">
+        </div>
+
+        <section id="video-details">
+         <header>
+             <h2>Beavis & Butthead</h2>
+             <div id="video-views-count">1,876,200 views</div>
+         </header>
+            <div id="social-container">
+                <!--thumbs up-->
+                <div class="social-item active" >
+                    <span class="material-icons">thumb_up_alt</span>
+
+                    <p id="social-item-title">26K</p>
+                </div>
+                 <!--thumbs down-->
+                <div class="social-item" >
+                        <span class="material-icons">thumb_down_alt</span>
+
+                    <p id="social-item-title">9K</p>
+                </div>
+                
+                <div class="social-item" >
+                   <span class="material-icons">
+                        share
+                     </span>
+                    <p id="social-item-title">Share</p>
+                </div>
+
+                <div class="social-item" >
+                    <span class="material-icons">
+                         queue
+                          </span>
+                    <p id="social-item-title">Watch later</p>
+                </div>
+
+
+            </div>
+
+            <div id="channel-details">
+                  <a href="#">
+                      <img src="img/fox.jpg" alt="profile image">
+                      <div id="channel-metadata">
+                          
+                      </div>
+                      <div id="channel-subscriber-count">
+                         <span>800k subscribers</span> 
+                      </div>
+                  </a>
+                  <button>
+                      
+                      <span>Subscribe</span>
+                  </button>
+            </div>
+        </section>
+
+        <aside id="related-videos">
+         <header>
+              <div>
+                  Up Next 
+              </div>
+              <div>
+                  Autoplay
+            </div>
+            <button>
+                <span class="autoplay-slider">  </span>
+                <span class="autoplay-slider-toggle-button">  </span>
+
+            </button>
+
+
+        </header>
+        <ul>
+
+            <li>
+               <a href="#" title="The Life ">
+                   <article>
+                       <img src="img/fischer.jpg" alt="image iv">
+                        <h2> The Life of Fischer </h2>
+                        <P> ELO </P>
+                        <p>20,894 views</p>
+                   </article>
+               </a> 
+            </li>
+            <li>
+
+
+                <a href="#" title="Lets learn Bootstrap">
+                    <article>
+                        <img src="img/bb2.jpg" alt="Lets learn Bootstrap" />
+                        <h4>Beavis & Butthead S3-EP-43</h4>
+                        <p>Fox</p>
+                        <p>6,500 views</p>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Skate.">
+                    <article>
+                        <img src="img/skate.jpg" alt="Nyjah" />
+                        <h4> Nyjah at Street League</h4>
+                        <p>X-Games</p>
+                        <p>925,900 views</p>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="pythom">
+                    <article>
+                        <img src="img/py.jpg" alt="SSH" />
+                        <h4>Network Programming:SSH with paramiko</h4>
+                        <p>HTTP</p>
+                        <p>8,211 views</p>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="sm">
+                    <article>
+                        <img src="img/sm-2.jpg" alt="SuperMan" />
+                        <h4>Superman:Man of Tommorow</h4>
+                        <p>DC Universe</p>
+                        <p>1,625,900 views</p>
+                    </article>
+                </a>
+            </li>
+            <li>
+               
+        </ul>
+        </aside>
+         <!--read commments-->    
+        <section id="video-comments">
+                <header>
+                     <h2>Comments:3</h2>
+                   
+                     <span id="comment-downtick"   class="material-icons">
+                    keyboard_arrow_down
+                     </span>
+                 
+                     <span class="material-icons"  id="comment-uptick">
+                        keyboard_arrow_up
+                     </span>
+                     
+                </header>
+                <!--create a coomment form-->
+                <div id="comment-list-container">
+                   <div id="comment-form">
+                      <img src="img/logo.jpg">
+                      <textarea placeholder="Add comment"  ></textarea>
+                   </div>
+                   <!--adding comments-->
+                   <div id="content-list">
+                        
+                    <div  class="comment my-comment"> 
+                            <img src="img/fox.jpg" alt="channel pic"/>
+                            <a href="#" title="How to anything">
+                                <span>Fox</span>
+                                 
+                            </a>
+                            <p>Every friday on Fox Cable Network 8pm EST</p>
+                            <div class="content-statistics">
+                                <p>1 Week ago </p>
+                                <p class="comment-status-separator">&middot;</p>
+                                <p>80</p>
+                                 <span class="material-icons">thumb_up_alt</span>
+                                   <span class="material-icons">thumb_down_alt</span>
+                            </div>
+                        </div>
+                        
+                        
+                   </div>
+                </div>
+
+        </section>
+    </main>
+     <!--comment toggle-->
+    <script>
+        const downTickButton = document.getElementById("comment-downtick");
+        const upTickButton = document.getElementById("comment-uptick");
+        const commentListContainer = document.getElementById("comment-list-container");
+
+        downTickButton.addEventListener('click',()=>{
+            downTickButton.style.display = "none";
+            upTickButton.style.display = 'block';
+            commentListContainer.style.display = 'block';
+        })  ;
+
+        upTickButton.addEventListener('click',()=>{
+            downTickButton.style.display = "block";
+            upTickButton.style.display = 'none';
+            commentListContainer.style.display = 'none';
+        })  ;
+    </script>
+
+</body>
+</html>
